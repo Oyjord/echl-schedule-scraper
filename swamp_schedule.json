@@ -1,0 +1,257 @@
+{
+  "lastUpdated": "10-06-2025",
+  "matchups": {
+    "20251011": {
+      "opponent": "Wheeling Nailers",
+      "location": "Away"
+    },
+    "20251017": {
+      "opponent": "Utah Grizzlies",
+      "location": "Home"
+    },
+    "20251018": {
+      "opponent": "Savannah Ghost Pirates",
+      "location": "Away"
+    },
+    "20251019": {
+      "opponent": "South Carolina Stingrays",
+      "location": "Home"
+    },
+    "20251024": {
+      "opponent": "Jacksonville Icemen",
+      "location": "Home"
+    },
+    "20251025": {
+      "opponent": "South Carolina Stingrays",
+      "location": "Home"
+    },
+    "20251031": {
+      "opponent": "Orlando Solar Bears",
+      "location": "Home"
+    },
+    "20251101": {
+      "opponent": "South Carolina Stingrays",
+      "location": "Home"
+    },
+    "20251105": {
+      "opponent": "Atlanta Gladiators",
+      "location": "Away"
+    },
+    "20251108": {
+      "opponent": "Orlando Solar Bears",
+      "location": "Home"
+    },
+    "20251112": {
+      "opponent": "Florida Everblades",
+      "location": "Home"
+    },
+    "20251114": {
+      "opponent": "Florida Everblades",
+      "location": "Home"
+    },
+    "20251115": {
+      "opponent": "Florida Everblades",
+      "location": "Home"
+    },
+    "20251121": {
+      "opponent": "Jacksonville Icemen",
+      "location": "Home"
+    },
+    "20251122": {
+      "opponent": "Atlanta Gladiators",
+      "location": "Away"
+    },
+    "20251126": {
+      "opponent": "Greensboro Gargoyles",
+      "location": "Away"
+    },
+    "20251129": {
+      "opponent": "Atlanta Gladiators",
+      "location": "Away"
+    },
+    "20251130": {
+      "opponent": "Atlanta Gladiators",
+      "location": "Away"
+    },
+    "20251205": {
+      "opponent": "Orlando Solar Bears",
+      "location": "Home"
+    },
+    "20251206": {
+      "opponent": "South Carolina Stingrays",
+      "location": "Away"
+    },
+    "20260102": {
+      "opponent": "Atlanta Gladiators",
+      "location": "Home"
+    },
+    "20260103": {
+      "opponent": "Jacksonville Icemen",
+      "location": "Away"
+    },
+    "20260105": {
+      "opponent": "Orlando Solar Bears",
+      "location": "Away"
+    },
+    "20260110": {
+      "opponent": "South Carolina Stingrays",
+      "location": "Home"
+    },
+    "20260113": {
+      "opponent": "Savannah Ghost Pirates",
+      "location": "Away"
+    },
+    "20260117": {
+      "opponent": "Atlanta Gladiators",
+      "location": "Home"
+    },
+    "20260118": {
+      "opponent": "Atlanta Gladiators",
+      "location": "Away"
+    },
+    "20260119": {
+      "opponent": "Atlanta Gladiators",
+      "location": "Away"
+    },
+    "20260123": {
+      "opponent": "Florida Everblades",
+      "location": "Home"
+    },
+    "20260124": {
+      "opponent": "Savannah Ghost Pirates",
+      "location": "Home"
+    },
+    "20260125": {
+      "opponent": "Savannah Ghost Pirates",
+      "location": "Home"
+    },
+    "20260128": {
+      "opponent": "Utah Grizzlies",
+      "location": "Away"
+    },
+    "20260130": {
+      "opponent": "Utah Grizzlies",
+      "location": "Away"
+    },
+    "20260131": {
+      "opponent": "Utah Grizzlies",
+      "location": "Away"
+    },
+    "20260204": {
+      "opponent": "Idaho Steelheads",
+      "location": "Away"
+    },
+    "20260206": {
+      "opponent": "Idaho Steelheads",
+      "location": "Away"
+    },
+    "20260207": {
+      "opponent": "Idaho Steelheads",
+      "location": "Away"
+    },
+    "20260211": {
+      "opponent": "Atlanta Gladiators",
+      "location": "Home"
+    },
+    "20260213": {
+      "opponent": "South Carolina Stingrays",
+      "location": "Home"
+    },
+    "20260214": {
+      "opponent": "South Carolina Stingrays",
+      "location": "Away"
+    },
+    "20260215": {
+      "opponent": "Savannah Ghost Pirates",
+      "location": "Home"
+    },
+    "20260218": {
+      "opponent": "South Carolina Stingrays",
+      "location": "Away"
+    },
+    "20260219": {
+      "opponent": "Tulsa Oilers",
+      "location": "Home"
+    },
+    "20260221": {
+      "opponent": "Tulsa Oilers",
+      "location": "Home"
+    },
+    "20260222": {
+      "opponent": "Tulsa Oilers",
+      "location": "Home"
+    },
+    "20260227": {
+      "opponent": "Reading Royals",
+      "location": "Away"
+    },
+    "20260228": {
+      "opponent": "Reading Royals",
+      "location": "Away"
+    },
+    "20260304": {
+      "opponent": "Florida Everblades",
+      "location": "Away"
+    },
+    "20260306": {
+      "opponent": "Florida Everblades",
+      "location": "Away"
+    },
+    "20260310": {
+      "opponent": "Orlando Solar Bears",
+      "location": "Away"
+    },
+    "20260313": {
+      "opponent": "Jacksonville Icemen",
+      "location": "Away"
+    },
+    "20260314": {
+      "opponent": "Orlando Solar Bears",
+      "location": "Away"
+    },
+    "20260315": {
+      "opponent": "Orlando Solar Bears",
+      "location": "Away"
+    },
+    "20260320": {
+      "opponent": "Savannah Ghost Pirates",
+      "location": "Away"
+    },
+    "20260321": {
+      "opponent": "Savannah Ghost Pirates",
+      "location": "Away"
+    },
+    "20260322": {
+      "opponent": "Jacksonville Icemen",
+      "location": "Away"
+    },
+    "20260329": {
+      "opponent": "Jacksonville Icemen",
+      "location": "Home"
+    },
+    "20260402": {
+      "opponent": "Atlanta Gladiators",
+      "location": "Home"
+    },
+    "20260403": {
+      "opponent": "Atlanta Gladiators",
+      "location": "Away"
+    },
+    "20260404": {
+      "opponent": "South Carolina Stingrays",
+      "location": "Away"
+    },
+    "20260409": {
+      "opponent": "Bloomington Bison",
+      "location": "Home"
+    },
+    "20260411": {
+      "opponent": "Bloomington Bison",
+      "location": "Home"
+    },
+    "20260412": {
+      "opponent": "Bloomington Bison",
+      "location": "Home"
+    }
+  }
+}
