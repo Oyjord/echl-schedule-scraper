@@ -1,1 +1,34 @@
+name: Update Swamp Schedule
 
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Install dependencies
+        run: gem install json
+
+      - name: Run scraper
+        run: ruby scrape_schedule.rb
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "SwampBot"
+          git config user.email "swampbot@example.com"
+          git add swamp_schedule.json
+          git commit -m "Auto-update schedule: $(date)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
