@@ -2,7 +2,7 @@ name: Update Swamp Schedule
 
 on:
   schedule:
-     - cron: '0 6,18 * * *'  # At 06:00 and 18:00 daily
+    - cron: '0 6,18 * * *'  # At 06:00 and 18:00 daily
   workflow_dispatch:
 
 jobs:
@@ -28,7 +28,11 @@ jobs:
           git config user.name "Oyjord"
           git config user.email "jseaman@gmail.com"
           git add swamp_schedule.json
-          git commit -m "Auto-update schedule: $(date)"
-          git push
+          if git diff --cached --quiet; then
+            echo "🟢 No changes to commit"
+          else
+            git commit -m "Auto-update schedule: $(date)"
+            git push
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
