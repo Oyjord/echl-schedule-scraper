@@ -3,7 +3,7 @@ require 'json'
 require 'date'
 
 ICS_URL = "https://swamprabbits.com/schedule-all.ics"
-MATCHUPS_URL = "https://gist.githubusercontent.com/Oyjord/1509b9f03fa9a6e0f3753631938295cd/raw/swamp_schedule.json"
+MATCHUPS_URL = "https://gist.githubusercontent.com/Oyjord/1509b9f03fa9a6e0f3753631938295cd/raw/?cachebust=#{Time.now.to_i}"
 OUTPUT_PATH = "swamp_schedule.json"
 
 def fetch_matchups
@@ -21,7 +21,7 @@ rescue
 end
 
 def date_key(date)
-  date.utc.strftime("%Y%m%d") # Use UTC to match JSON keys
+  date.utc.strftime("%Y%m%d") # Match UTC-based JSON keys
 end
 
 def scrape_schedule
@@ -39,11 +39,11 @@ def scrape_schedule
     next unless date
 
     key = date_key(date)
+
     puts "🧪 Event date: #{date} → key=#{key}"
-puts "🧪 Matchup exists: #{matchups.key?(key)}"
-puts "🧪 Matchup data: #{matchups[key].inspect}"
-    puts "🧪 Checking event: #{date} → key=#{key}"
-puts "🧪 Matchup exists: #{matchups.key?(key)}"
+    puts "🧪 Matchup exists: #{matchups.key?(key)}"
+    puts "🧪 Matchup data: #{matchups[key].inspect}"
+
     matchup = matchups[key]
 
     unless matchup
@@ -54,7 +54,8 @@ puts "🧪 Matchup exists: #{matchups.key?(key)}"
       opponent: matchup ? matchup["opponent"] : "Unknown",
       location: matchup ? matchup["location"] : "Unknown"
     }
-puts "✅ Added game for #{key}"
+
+    puts "✅ Added game for #{key}"
   end
 
   output = {
