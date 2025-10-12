@@ -21,7 +21,7 @@ rescue
 end
 
 def date_key(date)
-  date.getlocal("-05:00").strftime("%Y%m%d") # Eastern Time
+  date.utc.strftime("%Y%m%d") # Use UTC to match JSON keys
 end
 
 def scrape_schedule
@@ -39,12 +39,16 @@ def scrape_schedule
     next unless date
 
     key = date_key(date)
-    matchup = matchups[key] || {}
+    matchup = matchups[key]
 
-parsed[key] = {
-  opponent: matchup["opponent"] || "Unknown",
-  location: matchup["location"] || "Unknown"
-}
+    unless matchup
+      puts "⚠️ No matchup found for #{key} — using fallback"
+    end
+
+    parsed[key] = {
+      opponent: matchup ? matchup["opponent"] : "Unknown",
+      location: matchup ? matchup["location"] : "Unknown"
+    }
   end
 
   output = {
