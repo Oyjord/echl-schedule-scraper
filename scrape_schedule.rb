@@ -39,10 +39,12 @@ def scrape_schedule
     next unless date
 
     key = date_key(date)
-    matchup = matchups[key]
-    next unless matchup
+    matchup = matchups[key] || {}
 
-    parsed[key] = matchup
+parsed[key] = {
+  opponent: matchup["opponent"] || "Unknown",
+  location: matchup["location"] || "Unknown"
+}
   end
 
   output = {
