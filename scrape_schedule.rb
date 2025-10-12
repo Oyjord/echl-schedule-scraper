@@ -39,6 +39,9 @@ def scrape_schedule
     next unless date
 
     key = date_key(date)
+    puts "🧪 Event date: #{date} → key=#{key}"
+puts "🧪 Matchup exists: #{matchups.key?(key)}"
+puts "🧪 Matchup data: #{matchups[key].inspect}"
     puts "🧪 Checking event: #{date} → key=#{key}"
 puts "🧪 Matchup exists: #{matchups.key?(key)}"
     matchup = matchups[key]
