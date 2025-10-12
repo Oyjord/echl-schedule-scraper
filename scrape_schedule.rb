@@ -58,12 +58,14 @@ def scrape_schedule
     puts "✅ Added game for #{key}"
   end
 
-  # 🧩 Manually inject Oct 11 preseason game
-  parsed["20251011"] = {
-    opponent: "Wheeling Nailers",
-    location: "Home"
-  }
-  puts "🧩 Manually injected Oct 11 preseason game"
+  # 🧩 Manually inject Oct 11 preseason game if missing
+  unless parsed.key?("20251011")
+    parsed["20251011"] = {
+      opponent: "Wheeling Nailers",
+      location: "Home"
+    }
+    puts "🧩 Manually injected Oct 11 preseason game"
+  end
 
   output = {
     lastUpdated: Time.now.strftime("%m-%d-%Y"),
