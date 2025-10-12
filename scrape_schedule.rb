@@ -21,7 +21,7 @@ rescue
 end
 
 def date_key(date)
-  date.utc.strftime("%Y%m%d") # Match UTC-based JSON keys
+  date.utc.strftime("%Y%m%d")
 end
 
 def scrape_schedule
@@ -57,6 +57,13 @@ def scrape_schedule
 
     puts "✅ Added game for #{key}"
   end
+
+  # 🧩 Manually inject Oct 11 preseason game
+  parsed["20251011"] = {
+    opponent: "Wheeling Nailers",
+    location: "Home"
+  }
+  puts "🧩 Manually injected Oct 11 preseason game"
 
   output = {
     lastUpdated: Time.now.strftime("%m-%d-%Y"),
