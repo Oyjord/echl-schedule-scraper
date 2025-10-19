@@ -2,7 +2,7 @@ name: Update Swamp Schedule
 
 on:
   schedule:
-    - cron: '0 0 30 2 *'  # At 06:00 and 18:00 daily
+    - cron: '0 0 30 2 *'  # never run since no 30 Feb
   workflow_dispatch:
 
 jobs:
