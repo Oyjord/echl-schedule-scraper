@@ -105,6 +105,10 @@
       "opponent": "Jacksonville Icemen",
       "location": "Home"
     },
+    "20260331": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
     "20260402": {
       "opponent": "Atlanta Gladiators",
       "location": "Home"
@@ -116,6 +120,10 @@
     "20260404": {
       "opponent": "South Carolina Stingrays",
       "location": "Away"
+    },
+    "20260408": {
+      "opponent": "Unknown",
+      "location": "Unknown"
     },
     "20260409": {
       "opponent": "Bloomington Bison",
