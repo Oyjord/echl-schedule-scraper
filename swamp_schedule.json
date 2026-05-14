@@ -1,6 +1,290 @@
 {
   "lastUpdated": "05-14-2026",
   "matchups": {
+    "20261016": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261017": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261023": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261024": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261025": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261030": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261031": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261101": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261106": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261107": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261110": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261112": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261113": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261121": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261122": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261125": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261127": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261128": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261204": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261205": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261209": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261212": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261213": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261218": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261219": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261220": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261227": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261229": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20261231": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270102": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270103": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270106": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270108": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270109": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270115": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270116": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270117": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270122": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270123": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270124": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270129": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270130": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270131": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270205": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270206": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270207": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270211": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270213": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270219": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270220": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270221": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270226": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270227": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270228": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270305": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270306": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270312": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270313": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270314": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270317": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270319": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270320": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270324": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270326": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270327": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270331": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270403": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270404": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270409": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270410": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
+    "20270411": {
+      "opponent": "Unknown",
+      "location": "Unknown"
+    },
     "20251011": {
       "opponent": "Wheeling Nailers",
       "location": "Home"
